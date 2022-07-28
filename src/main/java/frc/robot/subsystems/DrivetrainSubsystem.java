@@ -163,7 +163,7 @@ public class DrivetrainSubsystem extends SubsystemBase {
   }
 
   public Gyro getGyro() {
-    return getGyro();
+    return navX;
   }
 
   public DifferentialDriveOdometry getOdometry() {
